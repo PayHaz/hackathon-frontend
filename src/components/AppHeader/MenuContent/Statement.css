@@ -1,0 +1,22 @@
+.card-header {
+	color: white;
+	background-color: #0079c2;
+}
+
+input[type='text']::placeholder {
+	text-align: center;
+}
+
+.sendStatementButton {
+	background-color: #0079c2;
+}
+
+.ant-menu-submenu-selected {
+	display: flex;
+	align-items: flex-end;
+}
+
+.ant-menu-light.ant-menu-horizontal {
+	display: flex;
+	align-items: flex-end;
+}

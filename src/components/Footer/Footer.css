@@ -1,0 +1,18 @@
+.background-footer {
+	background-image: url('./wave.svg');
+	height: 300px; /* You must set a specified height */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	display: flex;
+	z-index: -1;
+	align-items: flex-end;
+}
+
+:where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-1s3dcof).ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-selected {
+	color: #1677ff;
+	display: flex;
+	/* height: 49px; */
+	align-items: flex-end;
+	background-color: transparent;
+}
